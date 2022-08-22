@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 R_UNAME="$(uname -a)"
+=======
+#!/bin/bash
+
+VAR_UNAME="$(uname -a)"
+>>>>>>> 0bb3a7bfaafc2b73abe692aa7f49dd7684b661c9
 VAR_NODE_VERSION="$(node -v)"
 VAR_NODE_WHICH="$(which node)"
 VAR_VIM_VERSION="$(vim --version | head -n 1)"
